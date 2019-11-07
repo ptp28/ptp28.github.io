@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Tetris Game</title>
+    <style>
+        #score{
+            display: inline-block;
+        }
+        div{
+            font-size: 25px;
+            font-weight: bold;
+            font-family: monospace;
+            text-align: center;
+        }
+        canvas{
+            display: block;
+            margin:0 auto;
+            border: solid;
+        }
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        body {
+            zoom: 50%;
+            background-image: linear-gradient(to right,red,#ef6c00,orange,#f9a825,yellow,#b2ff59,lime,#4caf50,#00695c,blue,#283593,#1a237e,indigo,#8B00FF);
+        }
+        .scoreDisplay {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 7vh;
+        }
+    </style>
+</head>
+<body>
+        <div class="centered">
+                <canvas id="tetris" width="675" height="900"></canvas>
+                <div class="scoreDisplay">
+                    Score : <div id="score">0</div>
+                </div>
+        </div>
+</body>
+<script src="GameData.js"></script>
+<script src="GameLogic.js"></script>
+</html>
