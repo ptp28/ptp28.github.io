@@ -8,6 +8,8 @@ There are currently six games available -
 4. Tetris
 5. Flappy Bird
 6. Brick Breaker
+7. Melody Maker
+8. Goblin Hunter
 
 ### Games : 
 
