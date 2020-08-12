@@ -10107,6 +10107,10 @@ p.lead {
   font-size: 3rem;
 }
 
+.social-icon-set {
+  margin-right: 1.5rem;
+}
+
 section.resume-section {
   display: flex;
   align-items: center;
