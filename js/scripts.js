@@ -1,10 +1,11 @@
 /*!
     * Start Bootstrap - Resume v6.0.0 (https://startbootstrap.com/template-overviews/resume)
-    * Copyright 2013-2021 Start Bootstrap
+    * Copyright 2013-2022 Start Bootstrap
     * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
     */
     (function ($) {
     "use strict"; // Start of use strict
+
 
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
@@ -29,6 +30,12 @@
             }
         }
     });
+
+    // Show extra details based on href
+    if(window.location.href.split('#').includes("extra")) {
+        $(".extra-item-hidden").addClass('extra-item-shown')
+        $(".extra-item-shown").removeClass('extra-item-hidden')
+    }
 
     // Closes responsive menu when a scroll trigger link is clicked
     $(".js-scroll-trigger").click(function () {
