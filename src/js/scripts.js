@@ -1,6 +1,7 @@
 (function ($) {
     "use strict"; // Start of use strict
 
+
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
         if (
@@ -24,6 +25,12 @@
             }
         }
     });
+
+    // Show extra details based on href
+    if(window.location.href.split('#').includes("extra")) {
+        $(".extra-item-hidden").addClass('extra-item-shown')
+        $(".extra-item-shown").removeClass('extra-item-hidden')
+    }
 
     // Closes responsive menu when a scroll trigger link is clicked
     $(".js-scroll-trigger").click(function () {

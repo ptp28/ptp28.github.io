@@ -31,7 +31,18 @@ p.lead {
 
 .subheading {
     font-family: $headings-font-family;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 1.5rem;
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+
+.extra-item-shown {
+    display: block;
+}
+
+.extra-item-hidden {
+    display: none;
+}
+
+.neu-red {
+    color: #C8102E;
 }

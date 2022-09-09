@@ -37,15 +37,18 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#about') About
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#projects') Projects
+                        a.nav-link.js-scroll-trigger(href='#work') Work Experience
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#education') Education
                     li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#projects') Projects
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#publications') Publications
+                    li.nav-item
                         a.nav-link.js-scroll-trigger(href='#skills') Skills
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#interests') Interests
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#acomplishments') Acomplishments
+                    .extra-item-hidden
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#acomplishments') Accomplishments
 
         // Page Content
         .container-fluid.p-0
@@ -57,26 +60,126 @@ html(lang='en')
                         | Parth
                         span.text-primary Parikh
                     .subheading.mb-5
-                        | Pune · Maharashtra, India · 🇮🇳 ·
-                        a(href='mailto:parthparikh28@outlook.com') parthparikh28@outlook.com
+                        span parthparikh28@outlook.com
+
+
                     p.lead.mb-5
-                        | Currently working at e-Yantra, IIT-Bombay.
+                        | Student at
+                        img(src='assets/img/neu_logo.png' style='width: 30px')
+                        span.neu-red  Northeastern University, Boston
+                        |  pursuing
+                        b  Masters of Science in Computer Science.
+
                         br
-                        | Studied Computer Engineering from PVG's COET, Pune.
+                        | Previously worked at e-Yantra, IIT-Bombay.
+                        br
+                        | Graduated from Pune University with a Bachelor's degree in Computer Engineering.
                         br
                         | Love playing tennis.
                         br
                         | Always interested to learn more about computer science, technology, project ideas, etc.
 
+                    h3.mb-3
+                        | Get in touch
                     .social-icons
-                        h1.subheading.mb-5
-                            | Get in touch
                         a.social-icon(href='https://www.linkedin.com/in/ptp/')
                             i.fab.fa-linkedin-in
                         a.social-icon(href='https://github.com/ptp28')
                             i.fab.fa-github
                         a.social-icon(href='mailto:parthparikh28@outlook.com')
                             i.fa.fa-envelope
+
+                    div.subheading.font-weight-normal.mt-5.text-black.extra-item-hidden
+                        | study in BOSTON, MA 📍
+                        br
+                        span.text-primary from PUNE, INDIA 🏠
+
+            hr.m-0
+
+            // Work Experience
+            section#work.resume-section
+                .resume-section-content
+                    h2.mb-5 Work Experience
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 e-Yantra, Indian Institute of Technology Bombay
+                            .subheading.mt-1 Sr. Technical Project Research Assistant
+                            ul.mb-0
+                                li Part of the sofware development team.
+                                li Developed an automated grading tool called ‘GradeFast’ to exponentially reduce the time taken to grade assignments compared to manual evaluation.
+                                li Developed an online learning platform for beginners to learn coding in Python by making them solve a series of games and challenges.
+                                li Maintained the payment gateway server, which handles all monetary transactions for the organization.
+                                li Developed and embedded an interactive conversational chatbot in the e-Yantra Community App that responds and delivers information about e-Yantra’s activities.
+                            br
+                            .subheading.mt-1 Summer Intern (Remote)
+                            ul.mb-0
+                                li Test Driven Development for writing test scripts for the TIVA Launchpad, MSP430 microcontroller.
+                                li Developed a cross-platform CLI app for evaluating and grading assignments of students on the client side while maintaining security and confidentiality of the test scripts.
+
+                                a.extra-item-hidden.social-icon-set(href='https://www.youtube.com/watch?v=MdUUiR9YFro')
+                                    i.fab.fa-youtube
+                                    |       Overview of the project
+
+                        .flex-shrink-0
+                            span.text-primary 2020 - 2022
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Virtual Labs, Indian Institute of Technology Bombay
+                            .subheading.mt-1 Resource Person
+                            ul.mb-0
+                                li Resource Person and Speaker at 3 National level Virtual Lab Development Bootcamps.
+                                li Developed a Computer Graphics virtual lab, approved by IIT-Bombay and used across India by more than 100,000 students to date
+                            br
+                            .subheading.mt-1 Summer Intern
+                            ul.mb-0
+                                li Developed the ‘VlabsDev’ Development Portal to track development, release and reception of all virtual labs developed across India.
+                        .flex-shrink-0
+                            span.text-primary 2018 - 2019
+
+            hr.m-0
+
+            // Education
+            section#education.resume-section
+                .resume-section-content
+                    h2.mb-5 Education
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Northeastern University, Boston
+                            .subheading.mb-3 Master of Science in Computer Science
+                            div.mb-3 Subjects :
+                                br
+                                | Programming Design Paradigms, Foundations of AI
+                        .flex-shrink-0
+                            span.text-primary 2022 - 2024 (Expected)
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Savitribai Phule Pune University
+                            .subheading.mb-3 Bachelor of Engineering in Computer Engineering
+                            div.mb-3 Subjects :
+                                br
+                                | System Programming & Operating Systems, Embedded Systems & IOT, Microprocessor, Software Engineering, Data Analytics,  Theory of Computation, Computer Graphics, Computer Networks, Database Management Systems, Soft Computing and Optimisation of Algorithms, Machine Learning, Cloud Computing, High Performance Computing.
+                            div CGPA: 8.4/10
+                        .flex-shrink-0
+                            span.text-primary 2016 - 2020
+
+                    div.extra-item-hidden
+                        .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                            .flex-grow-1
+                                h3.mb-0 S.M. Choksey Junior College
+                                .subheading.mb-3 Higher Secondary Certificate (HSC)
+                            .flex-shrink-0
+                                span.text-primary 2014 - 2016
+
+                        .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                            .flex-grow-1
+                                h3.mb-0 The Bishop's School, Camp
+                                .subheading.mb-3 Indian Certificate of Secondary Education (ICSE)
+                            .flex-shrink-0
+                                span.text-primary 2002 - 2014
 
             hr.m-0
 
@@ -86,60 +189,104 @@ html(lang='en')
                     h2.mb-5 Projects
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 Summer Intern
-                            .subheading.mb-3 e-Yantra, Indian Institute of Technology - Bombay
-                            p
-                                | Test Driven Development for creating applications and test scripts for the Texas Instrument's TIVA Launchpad, MSP430 microcontroller.
-                                br
-                                | Developed a cross-platform CLI app for evaluating and grading assignments of users of the e-Yantra MOOC portal, thus freeing up considerable resources from the server.
-                                br
-                            a.social-icon-set(href='https://www.youtube.com/watch?v=MdUUiR9YFro')
-                                i.fab.fa-youtube
-                                |       Overview of the project
-                        .flex-shrink-0
-                            span.text-primary May, 2020 - June, 2020
+                        .flex-grow-0
+                            h3.mb-0 Gradefast
+                            //.subheading.mb-3 e-Yantra
+                            p An automated grading tool called ‘GradeFast’ to exponentially reduce the time taken to grade assignments compared to manual evaluation.
+                        .flex-shrink-0.mt-3
+                            span.text-primary #python #docker
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
+                        .flex-grow-0
+                            h3.mb-0 Python Combat
+                            //.subheading.mb-3 e-Yantra
+                            p An online learning platform for beginners to learn coding in Python by making them solve a series of games and challenges.
+                        .flex-shrink-0.mt-3
+                            span.text-primary #python #js
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-0
+                            h3.mb-0 Oncoradiology Second Opinion Portal
+                            //.subheading.mb-3 e-Yantra
+                            p An online portal where patients can submit their radiology reports to get a second opinion from a team of doctors.
+                            a.social-icon-set(href='oncoradx.com')
+                                i.fas.fa-link
+                                |       oncoradx.com
+                        .flex-shrink-0.mt-3
+                            span.text-primary #django #html/css/js #mysql
+
+                    .extra-item-hidden
+                        .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                            .flex-grow-0
+                                h3.mb-0 Disaster Management Platform
+                                //.subheading.mb-3 e-Yantra
+                                p A mobile application for the Kolhapur district government to manage rescue and relief operations during a crisis.
+                            .flex-shrink-0.mt-3
+                                span.text-primary #android #mysql #firebase
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5.extra-item-hidden
+                        .flex-grow-0
+                            h3.mb-0 e-Yantra Learning Analytics Dashboard
+                            //.subheading.mb-3 e-Yantra
+                            p A learning analytics dashboard that analyses student engagement during competitions and courses.
+                            a.social-icon-set(href='eylad.e-yantra.org')
+                                i.fas.fa-link
+                                |       eYLAD
+                        .flex-shrink-0.mt-3
+                            span.text-primary #django #html/css/js #mysql
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-0
+                            h3.mb-0 e-VA: The e-Yantra Virtual Assistant
+                            //.subheading.mb-3 e-Yantra
+                            p An interactive conversational chatbot for the e-Yantra Community App that responds and delivers information about e-Yantra’s activities.
+                        .flex-shrink-0.mt-3
+                            span.text-primary #python #rasa #postgresql
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-0
                             h3.mb-0 SPArK-BOT Platform
-                            .subheading.mb-3 Final Year Project and e-YANTRA IDEAS COMPETITION 19-20
-                            p
-                                | Created a robotic platform which all students, hobbyists and developers alike, can use to build their applications. No programming experience is required to build applications on this platform. At the same time, it is also scalable and experienced programmers can use this platform along with their programming language of choice to build advanced robotic solutions.
+                            .subheading.mb-3 (e-Yantra Ideas Competition 19-20)
+                            p It is a highly versatile educational robot focused on teaching beginner-friendly programming and robotics. At the same time, it is a scalable platform, and experiences programmers can use it to build advanced robotic applications.
                             a.social-icon-set(href='https://youtu.be/zDt4yl8qHLg')
                                 i.fab.fa-youtube
                                 |       Demonstration video
                             a.social-icon-set(href='https://youtu.be/PmfAKlIVun4')
                                 i.fab.fa-youtube
                                 |       Elevator Pitch    
-                        .flex-shrink-0
-                            span.text-primary August 2019 - March 2020
+                        .flex-shrink-0.mt-3
+                            span.text-primary #python #raspberrypi #scratch #js
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
                             h3.mb-0 Computer Graphics Virtual Lab
-                            .subheading.mb-3 Virtual Labs, Indian Institute of Technology - Bombay
-                            p
-                                | Developed a virtual lab for the Computer Graphics subject. The virtual lab is approved and hosted by the Indian Institute of Technology - Bombay and the Ministry of Human Resource Development (MHRD), Government of India, under the National Mission on Education through Information and Communication Technology (NMEICT).
+                            //.subheading.mb-3 Virtual Labs, Indian Institute of Technology - Bombay
+                            p Developed a Computer Graphics virtual lab, endorsed by IIT-Bombay, and used across India by more than 100,000 students to date.
                             a.social-icon-set(href='http://vlabs.iitb.ac.in/vlabs-dev/labs/cglab/index.html')
                                 i.fas.fa-flask
                                 |       Virtual lab hosted by IIT-Bombay
-                        .flex-shrink-0
-                            span.text-primary January 2019 - April 2019
+                        .flex-shrink-0.mt-3
+                            span.text-primary #html/css/js #bootstrap
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 Android App Developer
-                            //.subheading.mb-3 Third Year Mini-Project
-                            p
-                                | Developed a social messaging android app called SPArK Messenger. Did a survey of all the existing messaging platforms and then identified missing features in all of them. Studied the findings of the survey and developed six features which were not present in any of the existing apps.
+                            h3.mb-0 SPArK Messenger
+                            p Did a survey of all the popular messaging platforms available in the market. Studied the survey findings and developed six features not present in any existing apps.
                                 br
                                 | Also developed an app to manage Firebase database easily from any phone without using Google’s online portal. This app is still under development.
                             a.social-icon-set(href='https://play.google.com/store/apps/developer?id=SPArK+Apps')
                                 i.fab.fa-google-play
-                                |       Apps hosted on the Google Play Store
-                        .flex-shrink-0
-                            span.text-primary August 2018 - November 2018
+                                |       Google Play Store
+                        .flex-shrink-0.mt-3
+                            span.text-primary #android #java #firebase
+
+                    .extra-item-hidden
+                        .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                            .flex-grow-1
+                                h3.mb-0 Firebase Realtime Database Manager
+                                p Developed a native android app to manage the Firebase Realtime Database rather than using the web interface.
+                            .flex-shrink-0.mt-3
+                                span.text-primary #android #java #firebase
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
@@ -153,8 +300,8 @@ html(lang='en')
                             a.social-icon-set(href='https://github.com/ptp28/games-js')
                                 i.fas.fa-code
                                 |       Source code.    
-                        //.flex-shrink-0
-                        //    span.text-primary January - November 2018
+                        .flex-shrink-0.mt-3
+                            span.text-primary #html/css/js
 
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
@@ -169,39 +316,48 @@ html(lang='en')
                             a.social-icon-set(href='https://github.com/ptp28/loony-tunes')
                                 i.fas.fa-code
                                 |       Source code.    
-                        //.flex-shrink-0
-                        //    span.text-primary January - November 2018
+                        .flex-shrink-0.mt-3
+                            span.text-primary #html/css/js #django #mysql
 
 
             hr.m-0
 
-            // Education
-            section#education.resume-section
+            section#publications.resume-section
                 .resume-section-content
-                    h2.mb-5 Education
+                    h2.mb-5 Publications
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 Pune Vidyarthi Griha's College of Engineering and Technology
-                            .subheading.mb-3 Bachelor of Engineering
-                            div Computer Engineering - SPPU 2015 PATTERN.
-                            p CGPA: 8.4
+                            h3.mb-0 Towards developing a learning analytics dashboard for a massive online robotics competition
+                            .subheading.mb-3 IEEE
+                            div.mb-2 This research discusses a dashboard developed for a robotics competition where team characteristics are considered for clustering teams and developing models to predict participants' retention and help the competition's instructors monitor their progress and intervene if necessary.
+                            a.social-icon-set(href='https://ieeexplore.ieee.org/abstract/document/9766808')
+                                i.fas.fa-bookmark
+                                |       Link to IEEE Xplore
                         .flex-shrink-0
-                            span.text-primary August 2016 - July 2020
+                            span.text-primary 2022
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 S.M. Choksey Junior College
-                            .subheading.mb-3 Higher Secondary Certificate (HSC)
+                            h3.mb-0 SPArK-Bot: An Educational Robotic Platform
+                            .subheading.mb-3 IEEE
+                            div.mb-2 This paper reports the development and explains the features of a highly versatile educational robot focused on teaching beginner-friendly programming and robotics.
+                            a.social-icon-set(href='https://ieeexplore.ieee.org/abstract/document/9766694')
+                                i.fas.fa-bookmark
+                                |       Link to IEEE Xplore
                         .flex-shrink-0
-                            span.text-primary July 2014 - March 2016
+                            span.text-primary 2022
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 The Bishop's School, Camp
-                            .subheading.mb-3 Indian Certificate of Secondary Education (ICSE)
+                            h3.mb-0 Auto-Query - A simple natural language to SQL query generator
+                            .subheading.mb-3 IEEE
+                            div.mb-2 The study explored ways to develop an application that takes questions in a natural language and converts them into SQL queries using a sequence-to-sequence model for an e-learning platform.
+                            a.social-icon-set(href='https://ieeexplore.ieee.org/abstract/document/9766617')
+                                i.fas.fa-bookmark
+                                |       Link to IEEE Xplore
                         .flex-shrink-0
-                            span.text-primary June 2002 - March 2014
+                            span.text-primary 2022
 
             hr.m-0
 
@@ -254,52 +410,38 @@ html(lang='en')
 
             hr.m-0
 
-            // Interests
-            section#interests.resume-section
-                .resume-section-content
-                    h2.mb-5 Interests
-                    p
-                        | Apart from being a budding engineer, I enjoy my time working on my projects and self-development. I love to learn new things and am constantly in search for the next new-technology to try. I spend a large amount of my free time exploring the latest technological advancements in research as well as new tech-products coming out into the market.
-                    p.mb-0
-                        | When I need a break from tech, I love to travel and wander outdoors. Tennis is the sport which is most dear to my heart and I follow the sport with the utmost passion. But I also enjoy playing cricket, badminton and chess. I am also a member of a ḍhol-taasha patak named Shrimant Yogi and play the ḍhol every year during the Gaṇesh festival.
-
-            hr.m-0
-
-            // Acomplishments
-            section#acomplishments.resume-section
-                .resume-section-content
-                    h2.mb-5 Awards & Certifications
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Winner at the National Finals of the e-Yantra Ideas Competition 2019-20, hosted by IIT-Bombay.
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st
-                            | Place in I2IT State Level Project Competition 2020.
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Head of IIT-Bombay's Student's forum for virtual lab development.
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Speaker and Resource Person for 2 National level Virtual Labs Development Bootcamps and 1 National Level Bootathon workshop at Ahmedabad (January, 2019), Aurangabad (February, 2019) and Banda (September, 2019) respectively.
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Core Developer for Virtual Labs, IIT-Bombay.
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Head of the Technical Team of the student's association of the Computer Department of PVG's COET.
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Project Manager for the Product Innovation Lab of PVG's COET.
+            // Accomplishments
+            .extra-item-hidden
+                section#acomplishments.resume-section
+                    .resume-section-content
+                        h2.mb-5 Accomplishments
+                        ul.fa-ul.mb-0
+                            li
+                                span.fa-li
+                                    i.fas.fa-trophy.text-warning
+                                | Mentor to 15+ interns during the e-Yantra Summer Internship Program 2021 and 2022.
+                            li
+                                span.fa-li
+                                    i.fas.fa-trophy.text-warning
+                                | Winner at the National Finals of the e-Yantra Ideas Competition 2019-20, hosted by IIT-Bombay.
+                            li
+                                span.fa-li
+                                    i.fas.fa-trophy.text-warning
+                                | 1
+                                sup st
+                                | Place in I2IT State Level Project Competition 2020.
+                            li
+                                span.fa-li
+                                    i.fas.fa-trophy.text-warning
+                                | Head of IIT-Bombay's Student's forum for virtual lab development.
+                            li
+                                span.fa-li
+                                    i.fas.fa-trophy.text-warning
+                                | Resource Person and Speaker at 3 National level Virtual Lab Development Bootcamps.
+                            li
+                                span.fa-li
+                                    i.fas.fa-trophy.text-warning
+                                | Head of the Technical Team of the student's association of the Computer Department of PVG's COET.
 
 
         // Bootstrap core JS
