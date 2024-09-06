@@ -44,8 +44,9 @@ html(lang='en')
                         a.nav-link.js-scroll-trigger(href='#projects') Projects
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#publications') Publications
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#skills') Skills
+                    .extra-item-hidden
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#skills') Skills
                     .extra-item-hidden
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#acomplishments') Accomplishments
@@ -66,10 +67,11 @@ html(lang='en')
                     p.lead.mb-5
                         | Student at
                         img(src='assets/img/neu_logo.png' style='width: 30px; margin-left: 5px')
-                        span.neu-red  Northeastern University, Boston
-                        |  pursuing
-                        b  Masters of Science in Computer Science.
-
+                        span.neu-red  Northeastern University, Boston, 
+                        |  pursuing a graduate degree in
+                        b  Computer Science.
+                        br
+                        | SDE-intern at SOLIDWORKS, Dassault Systèmes.
                         br
                         | Previously worked at e-Yantra, IIT-Bombay as a Sr. Project Technical Researcher.
                         br
@@ -103,13 +105,40 @@ html(lang='en')
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
+                            h3.mb-0 SOLIDWORKS, Dassault Systèmes
+                            .subheading.mt-1 SDE (Intern)
+                            ul.mb-0
+                                li Rewrote a legacy crash analytics tracker to a full-stack web app that is 60% faster. Collaborated with stakeholders to implement new features to the dashboard. Used caching and data management techniques for performance.
+                                li Introduce automations and optimisation to the feedback system DevOps pipeline for SolidWorks desktop. Assisted in the migration of VMs and build machines from CentOS to RHEL.
+                        .flex-shrink-0
+                            span.text-primary January 2024 - July 2024
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Mon(IoT)r Lab, Northeastern University
+                            .subheading.mt-1 Research Assistant
+                            ul.mb-0
+                                li Utilize Python, JavaScript, Docker, and Linux tools to simulate and mock test a wide range of IoT devices, conducting hands-on experimental research and technology integrations with the Matter IoT protocol.
+                        .flex-shrink-0
+                            span.text-primary September 2023 - December 2023
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Khoury College of Computer Science, Northeastern University
+                            .subheading.mt-1 Graduate Teaching Assistant
+                            ul.mb-0
+                                li Assisted in teaching and grading the graduate course CS5010 (Programming Design Paradigms), providing support in lectures, labs, and one-on-one tutoring.
+                        .flex-shrink-0
+                            span.text-primary January 2023 - December 2024
+                    
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
                             h3.mb-0 e-Yantra, Indian Institute of Technology Bombay
                             .subheading.mt-1 Sr. Technical Project Research Assistant
                             ul.mb-0
-                                li Developed an automated grading framework called GradeFast using Python allowing for immediate feedback while eliminating manual grading. Collaborated on deployment and DevOps guidelines.
-                                li Maintained the Java Spring based payment gateway, capable of handling transactions of 10,000+ registrants during peak hours while also automating verification of transactions thus reducing errors by 20%.
-                                li Spearheaded development of CodeQuest, an online platform that provides programming education through gamification with interactive coding challenges and real-time feedback.
-                                li Implemented a conversational FAQ chatbot in the e-Yantra Community App deploying Python and the RASA framework. Resulted in a 30% decrease in email inquiries and a 20% increase in the app’s user engagement.
+                                li Developed GradeFast, an automated Python-based grading framework that provides immediate feedback and eliminates manual grading.
+                                li Maintained a Java Spring-based payment gateway handling 10,000+ transactions during peak hours, automating verification processes to reduce errors by 20%.
+                                li Implemented a conversational FAQ chatbot in the e-Yantra Community App using RASA and Django, leading to a 30% reduction in email inquiries and a 20% increase in user engagement.
                                 li Co-organized a 15 week Game Development course for 500+ participants for ‘e-Yantra School Competition 2021’. Coordinated with other instructors and moderated interactive learning sessions.
                             br
                             .subheading.mt-1 Summer Intern (Remote)
@@ -127,12 +156,9 @@ html(lang='en')
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
                             h3.mb-0 Virtual Labs, Indian Institute of Technology Bombay
-                            .subheading.mt-1 VlabsDev Mentor
+                            .subheading.mt-1 Contributor
                             ul.mb-0
-                                li Speaker at 3 National level Virtual Lab Development Bootcamps (Ahmedabad - Jan 2019), (Aurangabad - Feb 2019) and (Banda - Sept 2019)
-                            br
-                            .subheading.mt-1 Summer Intern (Remote)
-                            ul.mb-0
+                                li Speaker at 3 National level Virtual Lab Development Bootcamps (Ahmedabad - Jan 2019), (Aurangabad - Feb 2019) and (Banda - Sept 2019).
                                 li Developed the ‘VlabsDev’ Development Portal to track development, release and reception of all virtual labs developed across India.
                         .flex-shrink-0
                             span.text-primary June 2019 - December 2019
@@ -150,10 +176,10 @@ html(lang='en')
                             .subheading.mb-3 Master of Science in Computer Science
                             div.mb-3 Subjects :
                                 br
-                                | Programming Design Paradigms, Foundations of AI, Algorithms, Mobile App Design, Computer Graphics, Principles of Programming Languages.
-                            div CGPA: 3.9/4
+                                | Programming Design Paradigms, Foundations of AI, Algorithms, Mobile App Design, Computer Graphics, Principles of Programming Languages, Scalable Distributed Systems, Information Retrieval.
+                            div CGPA: 3.7/4
                         .flex-shrink-0
-                            span.text-primary 2022 - 2024 (Expected)
+                            span.text-primary September 2022 - December 2024
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
@@ -190,19 +216,27 @@ html(lang='en')
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-0
+                            h3.mb-0 MarkerGo
+                            // .subheading.mb-3 e-Yantra
+                            p Formulated and designed the user interface for an Android game resembling Pokemon Go, allowing players to explore local places of interest, obtain virtual rewards, and crowdsource data.
+                        .flex-shrink-0.mt-3
+                            span.text-primary #java #android #gcp #firebase
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-0
+                            h3.mb-0 CodeQuest
+                            //.subheading.mb-3 e-Yantra
+                            p Spearheaded development of CodeQuest, an online platform that provides programming education through gamification with interactive coding challenges and real-time feedback.
+                        .flex-shrink-0.mt-3
+                            span.text-primary #python #js #typescript #html
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-0
                             h3.mb-0 Gradefast
                             //.subheading.mb-3 e-Yantra
                             p An automated grading framework developed using Python and deployed using Docker containers. Allowed for immediate feedback and removed all manual grading work thus saving instructors time.
                         .flex-shrink-0.mt-3
                             span.text-primary #python #docker
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-0
-                            h3.mb-0 Code-Quest
-                            //.subheading.mb-3 e-Yantra
-                            p An an online platform that provides programming education through gamification with interactive coding challenges and real-time feedback.
-                        .flex-shrink-0.mt-3
-                            span.text-primary #python #js
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-0
@@ -363,51 +397,52 @@ html(lang='en')
             hr.m-0
 
             // Skills
-            section#skills.resume-section
-                .resume-section-content
-                    h2.mb-5 Skills
-                    .subheading.mb-3 Programming Languages & Tools
-                    ul.list-inline.dev-icons
-                        li.list-inline-item
-                            | C / C++
-                        li.list-inline-item
-                            i.fab.fa-java
-                        li.list-inline-item
-                            i.fab.fa-python
-                        li.list-inline-item
-                            i.fab.fa-html5
-                        li.list-inline-item
-                            i.fab.fa-css3-alt
-                        li.list-inline-item
-                            i.fab.fa-js-square
-                        li.list-inline-item
-                            i.fab.fa-php
-                        li.list-inline-item
-                            i.fab.fa-android
-                        li.list-inline-item
-                            i.fab.fa-swift
-                        //li.list-inline-item
-                        //    i.fab.fa-laravel
-                        li.list-inline-item
-                            i.fab.fa-raspberry-pi
-                        li.list-inline-item
-                            i.fab.fa-github
-                        li.list-inline-item
-                            i.fab.fa-linux
-                    .subheading.mb-3 Workflows
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Test Driven Development
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Agile
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Git
+            .extra-item-hidden
+                section#skills.resume-section
+                    .resume-section-content
+                        h2.mb-5 Skills
+                        .subheading.mb-3 Programming Languages & Tools
+                        ul.list-inline.dev-icons
+                            li.list-inline-item
+                                | C / C++
+                            li.list-inline-item
+                                i.fab.fa-java
+                            li.list-inline-item
+                                i.fab.fa-python
+                            li.list-inline-item
+                                i.fab.fa-html5
+                            li.list-inline-item
+                                i.fab.fa-css3-alt
+                            li.list-inline-item
+                                i.fab.fa-js-square
+                            li.list-inline-item
+                                i.fab.fa-php
+                            li.list-inline-item
+                                i.fab.fa-android
+                            li.list-inline-item
+                                i.fab.fa-swift
+                            //li.list-inline-item
+                            //    i.fab.fa-laravel
+                            li.list-inline-item
+                                i.fab.fa-raspberry-pi
+                            li.list-inline-item
+                                i.fab.fa-github
+                            li.list-inline-item
+                                i.fab.fa-linux
+                        .subheading.mb-3 Workflows
+                        ul.fa-ul.mb-0
+                            li
+                                span.fa-li
+                                    i.fas.fa-check
+                                | Test Driven Development
+                            li
+                                span.fa-li
+                                    i.fas.fa-check
+                                | Agile
+                            li
+                                span.fa-li
+                                    i.fas.fa-check
+                                | Git
 
             hr.m-0
 
