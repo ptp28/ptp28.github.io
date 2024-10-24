@@ -1,0 +1,205 @@
+{
+  "Theme": {
+    "primaryColor": "#0984e3"
+  },
+  "About-Page": {
+    "firstName": "PARTH",
+    "lastName": "PARIKH",
+    "email": "parthparikh28@outlook.com",
+    "avatarPath": "images/profile.jpeg",
+    "contactLinks": {
+      "email": "parthparikh28@outlook.com",
+      "linkedin": "https://linkedin.com/in/ptp/",
+      "github": "https://github.com/ptp28"
+    },
+    "text": "<br/>Graduate student in <b>Computer Science</b> at <img src='images/neu_logo.png' alt='Northeastern University Logo' style='width: 30px; height: auto; vertical-align: middle; margin: 0px 4px 0px 10px;'> <span style='color: rgb(200, 16, 46)'>Northeastern University, Boston.</span> <br/> SDE intern at SOLIDWORKS, Dassault Systèmes. <br/> Formerly a Senior Project Technical Researcher at e-Yantra, IIT Bombay. <br/> Earned a Bachelor's degree in Computer Engineering from Pune University. <br/> Passionate about expanding knowledge in computer science, technology, and innovative project ideas. <br/> Enjoy playing tennis and sailing in free time. <br/>"
+  },
+  "Work-Page": [
+    {
+      "companyName": "SOLIDWORKS, DASSAULT SYSTÈMES",
+      "workDetails": [
+        {
+          "duration": "January 2024 - July 2024",
+          "role": "Software Development Engineer (Intern)",
+          "description": [
+            "Rewrote a legacy crash analytics tracker to a full-stack web app that is 60% faster. Collaborated with stakeholders to implement new features to the dashboard. Used caching and data management techniques for performance.",
+            "Introduce automations and optimisation to the feedback system DevOps pipeline for SolidWorks desktop. Assisted in the migration of VMs and build machines from CentOS to RHEL."
+          ]
+        }
+      ]
+    },
+    {
+      "companyName": "e-YANTRA, INDIAN INSTITUTE OF TECHNOLOGY BOMBAY",
+      "workDetails": [
+        {
+          "duration": "June 2020 - July 2022",
+          "role": "Sr. Technical Project Researcher",
+          "description": [
+            "Developed GradeFast, an automated Python-based grading framework that provides immediate feedback and eliminates manual grading.",
+            "Maintained a Java Spring-based payment gateway handling 10,000+ transactions during peak hours, automating verification processes to reduce errors by 20%.",
+            "Implemented a conversational FAQ chatbot in the e-Yantra Community App using RASA and Django, leading to a 30% reduction in email inquiries and a 20% increase in user engagement.",
+            "Co-organized a 15 week Game Development course for 500+ participants for ‘e-Yantra School Competition 2021’. Coordinated with other instructors and moderated interactive learning sessions."
+          ]
+        },
+        {
+          "duration": "April 2020 - June 2020",
+          "role": "Summer Intern",
+          "description": [
+            "Test Driven Development for writing test scripts for the TIVA Launchpad, MSP430 microcontroller.",
+            "Developed a cross-platform CLI app for evaluating and grading assignments of students on the client side while maintaining security and confidentiality of the test scripts."
+          ]
+        }
+      ]
+    },
+    {
+      "companyName": "VIRTUAL LABS, INDIAN INSTITUTE OF TECHNOLOGY BOMBAY",
+      "workDetails": [
+        {
+          "duration": "June 2019 - DECEMBER 2019",
+          "role": "Summer Intern",
+          "description": [
+            "Developed frameworks that enhanced the virtual lab experience for physics, chemistry, and biology, facilitating further educational development and research.",
+            "Developed the ‘VlabsDev’ Development Portal to track development, release and reception of all virtual labs developed across India."
+          ]
+        }
+      ]
+    }
+  ],
+  "Education-Page": [
+    {
+      "instituteName": "NORTHEASTERN UNIVERSITY",
+      "degree": "Master of Science in Computer Science",
+      "duration": "September 2022- December 2024",
+      "description": "Khoury College of Computer Science <br/> Teaching Assistant for CS5010 Programming Design Paradigms <br/> Subjects - <br/> Programming Design Paradigms, Foundations of AI, Algorithms, Mobile App Design, Computer Graphics, Principles of Programming Languages, Scalable Distributed Systems, Information Retrieval.",
+      "grade": "3.8/4 GPA"
+    },
+    {
+      "instituteName": "SAVITRIBAI PHULE PUNE UNIVERSITY",
+      "degree": "Bachelor of Engineering (Computer Engineering)",
+      "duration": "2016-2020",
+      "description": "PVG's College of Engineering and Technology <br/> Subject - System Programming & Operating Systems, Embedded Systems & IOT, Microprocessor, Software Engineering, Data Analytics, Theory of Computation, Computer Graphics, Computer Networks, Database Management Systems, Soft Computing and Optimisation of Algorithms, Machine Learning, Cloud Computing, High Performance Computing.",
+      "grade": "8.4/10 GPA"
+    }
+  ],
+  "Projects-Page": [
+    {
+      "projectName": "MARKERGO",
+      "projectTags": "#java #android #gcp #firebase",
+      "description": "Formulated and designed the user interface for an Android game resembling Pokemon Go, allowing players to explore local places of interest, obtain virtual rewards, and crowdsource data.",
+      "links": [
+        {
+          "title": "Open Nebula Nexus",
+          "url": "https://nexus.com/"
+        },
+        {
+          "title": "Demonstration video",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "projectName": "CODEQUEST",
+      "projectTags": "#python #js #typescript #html",
+      "description": "Spearheaded development of CodeQuest, an online platform that provides programming education through gamification with interactive coding challenges and real-time feedback."
+    },
+    {
+      "projectName": "GRADEFAST",
+      "projectTags": "#typescript #express.js #node.js #sql",
+      "description": "An automated grading framework developed using Python and deployed using Docker containers. Allowed for immediate feedback and removed all manual grading work thus saving instructors time."
+    },
+    {
+      "projectName": "ONCORADIOLOGY SECOND OPINION PORTAL",
+      "projectTags": "#django #html #css #js #mysql #S3",
+      "description": "An online platform designed to provide expert opinions in cancer radiology, assisting treating doctors in planning timely and correct treatment as part of delivering high-quality care.",
+      "links": [
+        {
+          "title": "Visit oncoradx.com",
+          "url": "https://oncoradx.com"
+        }
+      ]
+    },
+    {
+      "projectName": "eVA: A VIRTUAL ASSISTANT",
+      "projectTags": "#python #rasa #postgresql #django",
+      "description": "An interactive conversational chatbot for the e-Yantra Community App that responds and delivers information about e-Yantra’s activities."
+    },
+    {
+      "projectName": "SPArK-BOT",
+      "projectTags": "#python #raspberrypi #scratch #js",
+      "description": "It is a highly versatile educational robot focused on teaching beginner-friendly programming and robotics. At the same time, it is a scalable platform, and experiences programmers can use it to build advanced robotic applications.",
+      "links": [
+        {
+          "title": "Demonstration video",
+          "url": "https://youtu.be/zDt4yl8qHLg"
+        },
+        {
+          "title": "Elevator Pitch",
+          "url": "https://youtu.be/PmfAKlIVun4"
+        }
+      ]
+    },
+    {
+      "projectName": "COMPUTER GRAPHICS VIRTUAL LAB",
+      "projectTags": "#html #css #js",
+      "description": "Developed a Computer Graphics virtual lab, endorsed by IIT-Bombay, and used across India by more than 100,000 students to date.",
+      "links": [
+        {
+          "title": "Computer Graphics Virtual Lab",
+          "url": "https://ptp28.github.io/cg-vlab/"
+        }
+      ]
+    },
+    {
+      "projectName": "LOONY TUNES",
+      "projectTags": "#python #django #html #css #js",
+      "description": "Developed an application called 'Loony Tunes' which let's you upload, store, and play all of your music from the cloud.",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/ptp28/loony-tunes"
+        }
+      ]
+    }
+  ],
+  "Publications-Page": {
+    "googleScholarProfileLink": "https://scholar.google.com/citations?user=lLvR8rkAAAAJ&hl=en",
+    "publications": [
+      {
+        "title": "TOWARDS DEVELOPING A LEARNING ANALYTICS DASHBOARD FOR A MASSIVE ONLINE ROBOTICS COMPETITION",
+        "presentedAt": "IEEE Educon",
+        "year": "2022",
+        "description": "This research discusses a dashboard developed for a robotics competition where team characteristics are considered for clustering teams and developing models to predict participants' retention and help the competition's instructors monitor their progress and intervene if necessary.",
+        "links": [
+          {
+            "title": "Link to IEEE Xplore",
+            "url": "https://ieeexplore.ieee.org/abstract/document/9766808"
+          }
+        ]
+      },
+      {
+        "title": "SPArK-BOT: AN EDUCATIONAL ROBOTIC PLATFORM",
+        "presentedAt": "IEEE Educon",
+        "year": "2022",
+        "description": "This paper reports the development and explains the features of a highly versatile educational robot focused on teaching beginner-friendly programming and robotics.",
+        "links": [
+          {
+            "title": "Link to IEEE Xplore",
+            "url": "https://ieeexplore.ieee.org/abstract/document/9766694"
+          }
+        ]
+      },
+      {
+        "title": "AUTO-QUERY - A SIMPLE NATURAL LANGUAGE TO SQL QUERY GENERATOR",
+        "presentedAt": "IEEE Educon",
+        "year": "2022",
+        "description": "The study explored ways to develop an application that takes questions in a natural language and converts them into SQL queries using a sequence-to-sequence model for an e-learning platform.",
+        "links": [
+          {
+            "title": "Link to IEEE Xplore",
+            "url": "https://ieeexplore.ieee.org/abstract/document/9766617"
+          }
+        ]
+      }
+    ]
+  }
+}
