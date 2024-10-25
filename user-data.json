@@ -85,17 +85,7 @@
     {
       "projectName": "MARKERGO",
       "projectTags": "#java #android #gcp #firebase",
-      "description": "Formulated and designed the user interface for an Android game resembling Pokemon Go, allowing players to explore local places of interest, obtain virtual rewards, and crowdsource data.",
-      "links": [
-        {
-          "title": "Open Nebula Nexus",
-          "url": "https://nexus.com/"
-        },
-        {
-          "title": "Demonstration video",
-          "url": "#"
-        }
-      ]
+      "description": "Formulated and designed the user interface for an Android game resembling Pokemon Go, allowing players to explore local places of interest, obtain virtual rewards, and crowdsource data."
     },
     {
       "projectName": "CODEQUEST",
