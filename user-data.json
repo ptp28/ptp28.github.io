@@ -12,24 +12,32 @@
       "linkedin": "https://linkedin.com/in/ptp/",
       "github": "https://github.com/ptp28"
     },
-    "text": "<br/>Graduate student in <b>Computer Science</b> at <img src='images/neu_logo.png' alt='Northeastern University Logo' style='width: 30px; height: auto; vertical-align: middle; margin: 0px 4px 0px 10px;'> <span style='color: rgb(200, 16, 46)'>Northeastern University, Boston.</span> <br/> SDE intern at SOLIDWORKS, Dassault Systèmes. <br/> Formerly a Senior Project Technical Researcher at e-Yantra, IIT Bombay. <br/> Earned a Bachelor's degree in Computer Engineering from Pune University. <br/> Passionate about expanding knowledge in computer science, technology, and innovative project ideas. <br/> Enjoy playing tennis and sailing in free time. <br/>"
+    "text": "<br/>Software Developer at SOLIDWORKS, Dassault Systèmes. <br/>Graduated with an M.S. in <b>Computer Science</b> from <img src='images/neu_logo.png' alt='Northeastern University Logo' style='width: 30px; height: auto; vertical-align: middle; margin: 0px 4px 0px 10px;'> <span style='color: rgb(200, 16, 46)'>Northeastern University, Boston.</span> <br/> Former researcher at e-Yantra, IIT Bombay. <br/> Bachelor's degree in Computer Engineering from Pune University. <br/><br/> Passionate about expanding expertise in tech and innovation. Enjoy playing tennis and sailing in free time.</br>📍Boston, MA <br/>"
   },
   "Work-Page": [
     {
       "companyName": "SOLIDWORKS, DASSAULT SYSTÈMES",
       "workDetails": [
         {
+          "duration": "December 2024 - Present",
+          "role": "Software Development Engineer",
+          "description": [
+            "Redesigning the SolidWorks test framework to enhance orchestration speed, integrate agentic AI-driven workflows, and significantly boost overall performance.",
+            "Rapidly prototyped AI tools and automation scripts for SolidWorks builds, enhancing developer experience, accelerating build times, and enabling more efficient resource usage."
+          ]
+        },
+        {
           "duration": "January 2024 - July 2024",
           "role": "Software Development Engineer (Intern)",
           "description": [
-            "Rewrote a legacy crash analytics tracker to a full-stack web app that is 60% faster. Collaborated with stakeholders to implement new features to the dashboard. Used caching and data management techniques for performance.",
+            "Rebuilt a legacy crash analytics tracker as a full-stack web application, leveraging caching and advanced data management for enhanced responsiveness, improving performance by 60%.",
             "Introduce automations and optimisation to the feedback system DevOps pipeline for SolidWorks desktop. Assisted in the migration of VMs and build machines from CentOS to RHEL."
           ]
         }
       ]
     },
     {
-      "companyName": "e-YANTRA, INDIAN INSTITUTE OF TECHNOLOGY BOMBAY",
+      "companyName": "e-YANTRA, IIT-BOMBAY",
       "workDetails": [
         {
           "duration": "June 2020 - July 2022",
@@ -37,8 +45,7 @@
           "description": [
             "Developed GradeFast, an automated Python-based grading framework that provides immediate feedback and eliminates manual grading.",
             "Maintained a Java Spring-based payment gateway handling 10,000+ transactions during peak hours, automating verification processes to reduce errors by 20%.",
-            "Implemented a conversational FAQ chatbot in the e-Yantra Community App using RASA and Django, leading to a 30% reduction in email inquiries and a 20% increase in user engagement.",
-            "Co-organized a 15 week Game Development course for 500+ participants for ‘e-Yantra School Competition 2021’. Coordinated with other instructors and moderated interactive learning sessions."
+            "Implemented a conversational FAQ chatbot in the e-Yantra Community App using RASA and Django, leading to a 30% reduction in email inquiries and a 20% increase in user engagement."
           ]
         },
         {
@@ -74,81 +81,11 @@
       "grade": "3.8/4 GPA"
     },
     {
-      "instituteName": "SAVITRIBAI PHULE PUNE UNIVERSITY",
+      "instituteName": "PUNE UNIVERSITY",
       "degree": "Bachelor of Engineering (Computer Engineering)",
       "duration": "2016-2020",
       "description": "PVG's College of Engineering and Technology <br/> Subject - System Programming & Operating Systems, Embedded Systems & IOT, Microprocessor, Software Engineering, Data Analytics, Theory of Computation, Computer Graphics, Computer Networks, Database Management Systems, Soft Computing and Optimisation of Algorithms, Machine Learning, Cloud Computing, High Performance Computing.",
       "grade": "8.4/10 GPA"
-    }
-  ],
-  "Projects-Page": [
-    {
-      "projectName": "MARKERGO",
-      "projectTags": "#java #android #gcp #firebase",
-      "description": "Formulated and designed the user interface for an Android game resembling Pokemon Go, allowing players to explore local places of interest, obtain virtual rewards, and crowdsource data."
-    },
-    {
-      "projectName": "CODEQUEST",
-      "projectTags": "#python #js #typescript #html",
-      "description": "Spearheaded development of CodeQuest, an online platform that provides programming education through gamification with interactive coding challenges and real-time feedback."
-    },
-    {
-      "projectName": "GRADEFAST",
-      "projectTags": "#typescript #express.js #node.js #sql",
-      "description": "An automated grading framework developed using Python and deployed using Docker containers. Allowed for immediate feedback and removed all manual grading work thus saving instructors time."
-    },
-    {
-      "projectName": "ONCORADIOLOGY SECOND OPINION PORTAL",
-      "projectTags": "#django #html #css #js #mysql #S3",
-      "description": "An online platform designed to provide expert opinions in cancer radiology, assisting treating doctors in planning timely and correct treatment as part of delivering high-quality care.",
-      "links": [
-        {
-          "title": "Visit oncoradx.com",
-          "url": "https://oncoradx.com"
-        }
-      ]
-    },
-    {
-      "projectName": "eVA: A VIRTUAL ASSISTANT",
-      "projectTags": "#python #rasa #postgresql #django",
-      "description": "An interactive conversational chatbot for the e-Yantra Community App that responds and delivers information about e-Yantra’s activities."
-    },
-    {
-      "projectName": "SPArK-BOT",
-      "projectTags": "#python #raspberrypi #scratch #js",
-      "description": "It is a highly versatile educational robot focused on teaching beginner-friendly programming and robotics. At the same time, it is a scalable platform, and experiences programmers can use it to build advanced robotic applications.",
-      "links": [
-        {
-          "title": "Demonstration video",
-          "url": "https://youtu.be/zDt4yl8qHLg"
-        },
-        {
-          "title": "Elevator Pitch",
-          "url": "https://youtu.be/PmfAKlIVun4"
-        }
-      ]
-    },
-    {
-      "projectName": "COMPUTER GRAPHICS VIRTUAL LAB",
-      "projectTags": "#html #css #js",
-      "description": "Developed a Computer Graphics virtual lab, endorsed by IIT-Bombay, and used across India by more than 100,000 students to date.",
-      "links": [
-        {
-          "title": "Computer Graphics Virtual Lab",
-          "url": "https://ptp28.github.io/cg-vlab/"
-        }
-      ]
-    },
-    {
-      "projectName": "LOONY TUNES",
-      "projectTags": "#python #django #html #css #js",
-      "description": "Developed an application called 'Loony Tunes' which let's you upload, store, and play all of your music from the cloud.",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://github.com/ptp28/loony-tunes"
-        }
-      ]
     }
   ],
   "Publications-Page": {
@@ -191,5 +128,16 @@
         ]
       }
     ]
-  }
+  },
+  "Projects-Page": [
+    {
+      "description": "Browse my complete portfolio of open-source work, prototypes, and tools on Github.",
+      "links": [
+        {
+          "title": "GitHub - @ptp28",
+          "url": "https://github.com/ptp28"
+        }
+      ]
+    }
+  ]
 }
