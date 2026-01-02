@@ -1,143 +1,185 @@
 {
-  "Theme": {
-    "primaryColor": "#0984e3"
-  },
-  "About-Page": {
-    "firstName": "PARTH",
-    "lastName": "PARIKH",
-    "email": "parthparikh28@outlook.com",
-    "avatarPath": "images/profile.jpeg",
-    "contactLinks": {
-      "email": "parthparikh28@outlook.com",
-      "linkedin": "https://linkedin.com/in/ptp/",
-      "github": "https://github.com/ptp28"
+    "meta": {
+        "theme": {
+            "primaryColor": "#22577A"
+        },
+        "title": "Parth Parikh's Portfolio"
     },
-    "text": "<br/>Software Developer at SOLIDWORKS, Dassault Systèmes. <br/>Graduated with an M.S. in <b>Computer Science</b> from <img src='images/neu_logo.png' alt='Northeastern University Logo' style='width: 30px; height: auto; vertical-align: middle; margin: 0px 4px 0px 10px;'> <span style='color: rgb(200, 16, 46)'>Northeastern University, Boston.</span> <br/> Former researcher at e-Yantra, IIT Bombay. <br/> Bachelor's degree in Computer Engineering from Pune University. <br/><br/> Passionate about expanding expertise in tech and innovation. Enjoy playing tennis and sailing in free time.</br>📍Boston, MA <br/>"
-  },
-  "Work-Page": [
-    {
-      "companyName": "SOLIDWORKS, DASSAULT SYSTÈMES",
-      "workDetails": [
+    "navigation": [
         {
-          "duration": "December 2024 - Present",
-          "role": "Software Development Engineer",
-          "description": [
-            "Redesigning the SolidWorks test framework to enhance orchestration speed, integrate agentic AI-driven workflows, and significantly boost overall performance.",
-            "Rapidly prototyped AI tools and automation scripts for SolidWorks builds, enhancing developer experience, accelerating build times, and enabling more efficient resource usage."
-          ]
+            "label": "About",
+            "targetId": "about"
         },
         {
-          "duration": "January 2024 - July 2024",
-          "role": "Software Development Engineer (Intern)",
-          "description": [
-            "Rebuilt a legacy crash analytics tracker as a full-stack web application, leveraging caching and advanced data management for enhanced responsiveness, improving performance by 60%.",
-            "Introduce automations and optimisation to the feedback system DevOps pipeline for SolidWorks desktop. Assisted in the migration of VMs and build machines from CentOS to RHEL."
-          ]
-        }
-      ]
-    },
-    {
-      "companyName": "e-YANTRA, IIT-BOMBAY",
-      "workDetails": [
-        {
-          "duration": "June 2020 - July 2022",
-          "role": "Sr. Technical Project Researcher",
-          "description": [
-            "Developed GradeFast, an automated Python-based grading framework that provides immediate feedback and eliminates manual grading.",
-            "Maintained a Java Spring-based payment gateway handling 10,000+ transactions during peak hours, automating verification processes to reduce errors by 20%.",
-            "Implemented a conversational FAQ chatbot in the e-Yantra Community App using RASA and Django, leading to a 30% reduction in email inquiries and a 20% increase in user engagement."
-          ]
+            "label": "Work",
+            "targetId": "work"
         },
         {
-          "duration": "April 2020 - June 2020",
-          "role": "Summer Intern",
-          "description": [
-            "Test Driven Development for writing test scripts for the TIVA Launchpad, MSP430 microcontroller.",
-            "Developed a cross-platform CLI app for evaluating and grading assignments of students on the client side while maintaining security and confidentiality of the test scripts."
-          ]
-        }
-      ]
-    },
-    {
-      "companyName": "VIRTUAL LABS, INDIAN INSTITUTE OF TECHNOLOGY BOMBAY",
-      "workDetails": [
+            "label": "Education",
+            "targetId": "education"
+        },
         {
-          "duration": "June 2019 - DECEMBER 2019",
-          "role": "Summer Intern",
-          "description": [
-            "Developed frameworks that enhanced the virtual lab experience for physics, chemistry, and biology, facilitating further educational development and research.",
-            "Developed the ‘VlabsDev’ Development Portal to track development, release and reception of all virtual labs developed across India."
-          ]
+            "label": "Projects",
+            "targetId": "projects"
+        },
+        {
+            "label": "Publications",
+            "targetId": "publications"
         }
-      ]
-    }
-  ],
-  "Education-Page": [
-    {
-      "instituteName": "NORTHEASTERN UNIVERSITY",
-      "degree": "Master of Science in Computer Science",
-      "duration": "September 2022- December 2024",
-      "description": "Khoury College of Computer Science <br/> Teaching Assistant for CS5010 Programming Design Paradigms <br/> Subjects - <br/> Programming Design Paradigms, Foundations of AI, Algorithms, Mobile App Design, Computer Graphics, Principles of Programming Languages, Scalable Distributed Systems, Information Retrieval.",
-      "grade": "3.8/4 GPA"
-    },
-    {
-      "instituteName": "PUNE UNIVERSITY",
-      "degree": "Bachelor of Engineering (Computer Engineering)",
-      "duration": "2016-2020",
-      "description": "PVG's College of Engineering and Technology <br/> Subject - System Programming & Operating Systems, Embedded Systems & IOT, Microprocessor, Software Engineering, Data Analytics, Theory of Computation, Computer Graphics, Computer Networks, Database Management Systems, Soft Computing and Optimisation of Algorithms, Machine Learning, Cloud Computing, High Performance Computing.",
-      "grade": "8.4/10 GPA"
-    }
-  ],
-  "Publications-Page": {
-    "googleScholarProfileLink": "https://scholar.google.com/citations?user=lLvR8rkAAAAJ&hl=en",
-    "publications": [
-      {
-        "title": "TOWARDS DEVELOPING A LEARNING ANALYTICS DASHBOARD FOR A MASSIVE ONLINE ROBOTICS COMPETITION",
-        "presentedAt": "IEEE Educon",
-        "year": "2022",
-        "description": "This research discusses a dashboard developed for a robotics competition where team characteristics are considered for clustering teams and developing models to predict participants' retention and help the competition's instructors monitor their progress and intervene if necessary.",
-        "links": [
-          {
-            "title": "Link to IEEE Xplore",
-            "url": "https://ieeexplore.ieee.org/abstract/document/9766808"
-          }
-        ]
-      },
-      {
-        "title": "SPArK-BOT: AN EDUCATIONAL ROBOTIC PLATFORM",
-        "presentedAt": "IEEE Educon",
-        "year": "2022",
-        "description": "This paper reports the development and explains the features of a highly versatile educational robot focused on teaching beginner-friendly programming and robotics.",
-        "links": [
-          {
-            "title": "Link to IEEE Xplore",
-            "url": "https://ieeexplore.ieee.org/abstract/document/9766694"
-          }
-        ]
-      },
-      {
-        "title": "AUTO-QUERY - A SIMPLE NATURAL LANGUAGE TO SQL QUERY GENERATOR",
-        "presentedAt": "IEEE Educon",
-        "year": "2022",
-        "description": "The study explored ways to develop an application that takes questions in a natural language and converts them into SQL queries using a sequence-to-sequence model for an e-learning platform.",
-        "links": [
-          {
-            "title": "Link to IEEE Xplore",
-            "url": "https://ieeexplore.ieee.org/abstract/document/9766617"
-          }
-        ]
-      }
+    ],
+    "sections": [
+        {
+            "id": "about",
+            "type": "profile",
+            "title": "About Me",
+            "data": {
+                "firstName": "PARTH",
+                "lastName": "PARIKH",
+                "email": "parthparikh28@outlook.com",
+                "avatarPath": "images/profile.jpeg",
+                "contactLinks": {
+                    "email": "parthparikh28@outlook.com",
+                    "linkedin": "https://linkedin.com/in/ptp/",
+                    "github": "https://github.com/ptp28"
+                },
+                "text": "<br/>Software Developer at SOLIDWORKS, Dassault Systèmes. <br/>Graduated with an M.S. in <b>Computer Science</b> from <img src='images/neu_logo.png' alt='Northeastern University Logo' style='width: 30px; height: auto; vertical-align: middle; margin: 0px 4px 0px 10px;'> <span style='color: rgb(200, 16, 46)'>Northeastern University, Boston.</span> <br/> Former researcher at e-Yantra, IIT Bombay. <br/> Bachelor's degree in Computer Engineering from Pune University. <br/><br/> Passionate about expanding expertise in tech and innovation. Enjoy playing tennis and sailing in free time.</br>📍Boston, MA <br/>"
+            }
+        },
+        {
+            "id": "work",
+            "type": "list",
+            "title": "Work Experience",
+            "data": [
+                {
+                    "title": "DASSAULT SYSTÈMES",
+                    "subtitle": "SOLIDWORKS - Software Development Engineer",
+                    "date": "December 2024 - Present",
+                    "description": [
+                        "Redesigning the SolidWorks test framework to enhance orchestration speed, integrate agentic AI-driven workflows, and significantly boost overall performance.",
+                        "Rapidly prototyped AI tools and automation scripts for SolidWorks builds, enhancing developer experience, accelerating build times, and enabling more efficient resource usage."
+                    ]
+                },
+                {
+                    "title": "DASSAULT SYSTÈMES",
+                    "subtitle": "SOLIDWORKS - Software Development Intern",
+                    "date": "January 2024 - July 2024",
+                    "description": [
+                        "Rebuilt a legacy crash analytics tracker as a full-stack web application, leveraging caching and advanced data management for enhanced responsiveness, improving performance by 60%.",
+                        "Introduce automations and optimisation to the feedback system DevOps pipeline for SolidWorks desktop. Assisted in the migration of VMs and build machines from CentOS to RHEL."
+                    ]
+                },
+                {
+                    "title": "INDIAN INSTITUTE OF TECHNOLOGY BOMBAY",
+                    "subtitle": "e-Yantra - Technical Project Researcher",
+                    "date": "June 2020 - July 2022",
+                    "description": [
+                        "Developed GradeFast, an automated Python-based grading framework that provides immediate feedback and eliminates manual grading.",
+                        "Maintained a Java Spring-based payment gateway handling 10,000+ transactions during peak hours, automating verification processes to reduce errors by 20%.",
+                        "Implemented a conversational FAQ chatbot in the e-Yantra Community App using RASA and Django, leading to a 30% reduction in email inquiries and a 20% increase in user engagement."
+                    ]
+                },
+                {
+                    "title": "INDIAN INSTITUTE OF TECHNOLOGY BOMBAY",
+                    "subtitle": "e-Yantra - Summer Intern",
+                    "date": "April 2020 - June 2020",
+                    "description": [
+                        "Test Driven Development for writing test scripts for the TIVA Launchpad, MSP430 microcontroller.",
+                        "Developed a cross-platform CLI app for evaluating and grading assignments of students on the client side while maintaining security and confidentiality of the test scripts."
+                    ]
+                },
+                {
+                    "title": "INDIAN INSTITUTE OF TECHNOLOGY BOMBAY",
+                    "subtitle": "Virtual Labs - Summer Intern",
+                    "date": "June 2019 - DECEMBER 2019",
+                    "description": [
+                        "Developed frameworks that enhanced the virtual lab experience for physics, chemistry, and biology, facilitating further educational development and research.",
+                        "Developed the ‘VlabsDev’ Development Portal to track development, release and reception of all virtual labs developed across India."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "education",
+            "type": "list",
+            "title": "Education",
+            "data": [
+                {
+                    "title": "NORTHEASTERN UNIVERSITY",
+                    "subtitle": "Master of Science in Computer Science",
+                    "date": "September 2022- December 2024",
+                    "description": "Khoury College of Computer Science <br/> Teaching Assistant for CS5010 Programming Design Paradigms <br/> Subjects - <br/> Programming Design Paradigms, Foundations of AI, Algorithms, Mobile App Design, Computer Graphics, Principles of Programming Languages, Scalable Distributed Systems, Information Retrieval.",
+                    "grade": "3.8/4 GPA"
+                },
+                {
+                    "title": "PUNE UNIVERSITY",
+                    "subtitle": "Bachelor of Engineering (Computer Engineering)",
+                    "date": "2016-2020",
+                    "description": "PVG's College of Engineering and Technology <br/> Subject - System Programming & Operating Systems, Embedded Systems & IOT, Microprocessor, Software Engineering, Data Analytics, Theory of Computation, Computer Graphics, Computer Networks, Database Management Systems, Soft Computing and Optimisation of Algorithms, Machine Learning, Cloud Computing, High Performance Computing.",
+                    "grade": "8.4/10 GPA"
+                }
+            ]
+        },
+        {
+            "id": "projects",
+            "type": "grid",
+            "title": "Projects",
+            "data": [
+                {
+                    "title": "",
+                    "subtitle": "",
+                    "description": "Browse my complete portfolio of open-source work, prototypes, and tools on Github.",
+                    "links": [
+                        {
+                            "title": "GitHub - @ptp28",
+                            "url": "https://github.com/ptp28"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "publications",
+            "type": "publications",
+            "title": "Publications",
+            "googleScholarProfileLink": "https://scholar.google.com/citations?user=lLvR8rkAAAAJ&hl=en",
+            "data": [
+                {
+                    "title": "TOWARDS DEVELOPING A LEARNING ANALYTICS DASHBOARD FOR A MASSIVE ONLINE ROBOTICS COMPETITION",
+                    "subtitle": "IEEE Educon",
+                    "date": "2022",
+                    "description": "This research discusses a dashboard developed for a robotics competition where team characteristics are considered for clustering teams and developing models to predict participants' retention and help the competition's instructors monitor their progress and intervene if necessary.",
+                    "links": [
+                        {
+                            "title": "Link to IEEE Xplore",
+                            "url": "https://ieeexplore.ieee.org/abstract/document/9766808"
+                        }
+                    ]
+                },
+                {
+                    "title": "SPArK-BOT: AN EDUCATIONAL ROBOTIC PLATFORM",
+                    "subtitle": "IEEE Educon",
+                    "date": "2022",
+                    "description": "This paper reports the development and explains the features of a highly versatile educational robot focused on teaching beginner-friendly programming and robotics.",
+                    "links": [
+                        {
+                            "title": "Link to IEEE Xplore",
+                            "url": "https://ieeexplore.ieee.org/abstract/document/9766694"
+                        }
+                    ]
+                },
+                {
+                    "title": "AUTO-QUERY - A SIMPLE NATURAL LANGUAGE TO SQL QUERY GENERATOR",
+                    "subtitle": "IEEE Educon",
+                    "date": "2022",
+                    "description": "The study explored ways to develop an application that takes questions in a natural language and converts them into SQL queries using a sequence-to-sequence model for an e-learning platform.",
+                    "links": [
+                        {
+                            "title": "Link to IEEE Xplore",
+                            "url": "https://ieeexplore.ieee.org/abstract/document/9766617"
+                        }
+                    ]
+                }
+            ]
+        }
     ]
-  },
-  "Projects-Page": [
-    {
-      "description": "Browse my complete portfolio of open-source work, prototypes, and tools on Github.",
-      "links": [
-        {
-          "title": "GitHub - @ptp28",
-          "url": "https://github.com/ptp28"
-        }
-      ]
-    }
-  ]
 }
